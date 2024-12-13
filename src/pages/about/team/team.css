@@ -1,0 +1,114 @@
+
+
+.section__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.team__header {
+  margin-bottom: 2rem;
+}
+
+.team__header p {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.team__header h1 {
+ 
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.testimonials__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card__team {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card__team i {
+  font-size: 2.5rem;
+  color: var(--first-color);
+}
+
+.card__team p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.card__team hr {
+  width: 40px;
+  margin: auto;
+  color: var(--text-light);
+}
+
+.card__team img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 100%;
+ 
+}
+
+.card__team .name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.card__team .name:hover {
+  color: var(--first-color);
+}
+
+.footer__team h4 {
+  color: rgb(187, 183, 183);
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.footer__team p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer__team button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (width < 900px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (width < 600px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

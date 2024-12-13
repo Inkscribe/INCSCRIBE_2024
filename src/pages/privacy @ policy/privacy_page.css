@@ -1,0 +1,67 @@
+.privacy_page_section {
+    margin-top: 10rem;
+    position: relative;
+    height: auto;
+}
+.privacy_page_container {
+    margin: auto;
+    border-radius: 30px;
+    min-height: auto;
+    background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
+}
+.privacy_page_box {
+    margin: 1rem;
+    padding: 3rem;
+}
+.privacy_page_box h1 {
+    color: white;
+    margin-bottom: 0.8rem;
+}
+.privacy_page_box p {
+    text-align: justify;
+   font-size: 15px;
+   line-height: 20px;
+   margin-bottom: 1rem;
+ }
+ .privacy_page_content {
+    display: flex;
+    gap: 0.5rem;
+ }
+
+ @media screen and (max-width: 1230px) {
+    .privacy_page_box p {
+        position: relative;
+        word-spacing: normal !important;
+        font-size: 12px;
+    }
+}
+  
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+  
+  }
+  @media screen and (max-width: 576px) {
+    .privacy_page_box {
+        margin: 5px;
+        padding: 1rem;
+    }
+    .privacy_page_box p {
+        position: relative;
+        word-spacing: normal !important;
+        font-size: 12px;
+        text-align: left;
+    }
+    .privacy_page_box h1 {
+        text-align: center;
+    }
+  }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+ 
+  }
+  
